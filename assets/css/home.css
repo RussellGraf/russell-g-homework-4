@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+}
+
+/*HEADER/NAV*/
+
+a.nav {
+	text-decoration: none;
+	color: black;
+}
+
+nav {
+	float: left;
+	height: auto;
+	width: 60%;
+	background-color: lightblue;
+}
+
+nav.gutterleft {
+	float: left;
+	height: 90px;
+	width: 10%;
+	background-color: lightblue;
+}
+
+nav.gutterright {
+	float: left;
+	height: 90px;
+	width: 30%;
+	background-color: lightblue;
+}
+
+ul.nav {
+	list-style: none;
+	padding: 0;
+}
+
+li.nav {
+	display: inline-block;
+	padding: 20px 30px;
+	font-family: helvetica;
+	outline: 1px solid none;
+}
+
+li.nav:hover {
+	color: white;
+	background-color: white;
+}
+
+/*LEFT COL*/
