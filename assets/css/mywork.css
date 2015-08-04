@@ -1,0 +1,28 @@
+/*PAGE TITLE*/
+.pagetitle {
+	float: left;
+	height: auto;
+	width: 100%;
+	background-color: none;
+	padding: 0 20px;
+}
+
+/*IMAGE GALLERY*/
+.imaggal {
+	float: left;
+	width: 100%;
+	background-color: white;
+	height: auto;
+}
+
+.imgframes {
+	float: left;
+	margin: 20px;
+	height: 200px;
+	width: 300px;
+	overflow: hidden;
+}
+
+.gallery {
+	height: 200px;
+}
