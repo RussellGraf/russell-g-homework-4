@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+}
+
+/*HEADER/NAV*/
+
+a.nav {
+	text-decoration: none;
+	color: white;
+}
+
+nav {
+	float: left;
+	height: auto;
+	width: 100%;
+	background-color: black;
+}
+
+ul.nav {
+	list-style: none;
+	padding: 0;
+}
+
+li.nav {
+	display: inline-block;
+	padding: 20px 30px;
+	font-family: helvetica;
+	outline: 1px solid none;
+}
+
+li.nav:hover {
+	background-color: lightgray;
+}

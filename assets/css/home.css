@@ -1,57 +1,32 @@
-body {
-  margin: 0;
-  background: url('http://i.kinja-img.com/gawker-media/image/upload/epgfchzgcmifcntklwf1.jpg') no-repeat center center fixed;
-  background-size: cover;
-}
-
-/*HEADER/NAV*/
-
-a.nav {
-	text-decoration: none;
-	color: white;
-}
-
-nav {
-	float: left;
-	height: auto;
-	width: 100%;
-	background-color: black;
-}
-
-ul.nav {
-	list-style: none;
-	padding: 0;
-}
-
-li.nav {
-	display: inline-block;
-	padding: 20px 30px;
-	font-family: helvetica;
-	outline: 1px solid none;
-}
-
-li.nav:hover {
-	background-color: lightgray;
-}
-
 /*LEFT COL*/
 
-#leftcol {
-	float:left;
-	margin: 20px;
+.leftcontainer {
+	float: left;
 	width: 30%;
-	height: 500px;
 	padding: 20px;
+	margin: 20px 20px;
 	background-color: red;
+	min-height: 10px;
+	height: auto;
+}
+
+#leftcol {
+	vertical-align: baseline;
+	padding: 20px;
 }
 
 /*RIGHT COL*/
 
-#rightcol {
+.rightcontainer {
 	float:left;
 	margin: 20px;
 	width: 55%;
 	height: 500px;
 	padding: 20px;
 	background-color: blue;
+}
+
+#rightcol {
+	vertical-align: baseline;
+	padding: 20px;
 }
