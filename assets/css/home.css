@@ -1,18 +1,20 @@
+/*PAGE TITLE*/
+.pagetitle {
+	float: left;
+	height: auto;
+	width: 100%;
+	background-color: none;
+	padding: 0 20px;
+}
+
 /*LEFT COL*/
 
 .leftcontainer {
 	float: left;
 	width: 30%;
 	padding: 20px;
-	margin: 20px 20px;
-	background-color: red;
-	min-height: 10px;
+	margin: 20px;
 	height: auto;
-}
-
-#leftcol {
-	vertical-align: baseline;
-	padding: 20px;
 }
 
 /*RIGHT COL*/
@@ -21,12 +23,24 @@
 	float:left;
 	margin: 20px;
 	width: 55%;
-	height: 500px;
+	height: auto;
 	padding: 20px;
-	background-color: blue;
+	background-color: darkgray;
 }
 
 #rightcol {
 	vertical-align: baseline;
-	padding: 20px;
+	padding: 0 20px;
+}
+
+.imagescale {
+	width: 0 auto;
+	height: 700px;
+	overflow: hidden;
+}
+
+#facerel {
+	position: relative;
+	left: -200px;
+	top: -150px;
 }

@@ -2,6 +2,10 @@ body {
   margin: 0;
 }
 
+h1, h2, h3, h4 {
+	font-family: times;
+}
+
 /*HEADER/NAV*/
 
 a.nav {
@@ -41,3 +45,9 @@ footer {
 	width: 100%;
 	background-color: black;
 }
+
+ .socialicons img {
+ 	max-width: 4%;
+ 	float: left;
+ 	padding: 20px;
+ }
