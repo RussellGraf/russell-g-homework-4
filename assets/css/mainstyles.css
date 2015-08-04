@@ -26,8 +26,18 @@ li.nav {
 	padding: 20px 30px;
 	font-family: helvetica;
 	outline: 1px solid none;
+	font-weight: 100;
 }
 
 li.nav:hover {
 	background-color: lightgray;
+}
+
+/*FOOTER*/
+
+footer {
+	clear: both;
+	height: 100px;
+	width: 100%;
+	background-color: black;
 }
