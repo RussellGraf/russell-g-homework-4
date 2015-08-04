@@ -6,3 +6,27 @@
 	background-color: none;
 	padding: 0 20px;
 }
+
+/*LEFT COL*/
+
+.leftcontainer {
+	float: left;
+	width: 30%;
+	padding: 20px;
+	margin: 20px;
+	height: auto;
+}
+
+.submitbutton {
+	display: inline-block;
+	margin: 10px 0;
+}
+
+/*RIGHT COL*/
+
+.rightcontainer {
+	float:left;
+	margin: 20px;
+	width: 55%;
+	height: auto;
+}
